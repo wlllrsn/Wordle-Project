@@ -181,12 +181,12 @@ if __name__ == '__main__':
         solutionlist = []
         guesslist = []
 
-        with open("C:/Users/Will/Documents/WordleProject/solutions.txt", "r") as solutions:
+        with open("dictionaries/solutions.txt", "r") as solutions:
             for word in solutions:
                 solutionlist.append(word.strip())
                 guesslist.append(word.strip())
 
-        with open("C:/Users/Will/Documents/WordleProject/guesses.txt", "r") as guesses:
+        with open("dictionaries/guesses.txt", "r") as guesses:
             for word in guesses:
                 guesslist.append(word.strip())
 

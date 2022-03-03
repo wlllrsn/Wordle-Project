@@ -1,4 +1,5 @@
-
+# Classes to receive input
+# Will eventually create an algorithm to simulate guesses
 
 
 class InputListener:
@@ -21,8 +22,8 @@ class UserListener(InputListener):
                 return 'q'
 
 
-
 class AutomatedListener(InputListener):
+    # TODO create algorithm to solve games
 
     def getinput(self) -> str:
         return input("Please input a word: ")
